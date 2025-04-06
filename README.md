@@ -23,7 +23,7 @@
     public $Type$ $Property$
     {
         get => _$Property_Private$;
-        set => SetAndRaise(VIfProperty, ref _$Property_Private$, value);
+        set => SetAndRaise($Property$Property, ref _$Property_Private$, value);
     }
    ```
 
